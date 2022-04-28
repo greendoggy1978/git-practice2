@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+}
+
+img {
+  margin-top: 10px;
+  height: 150px;
+}
+
+.content {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.step-box {
+  margin: 15px 0 5px;
+}
+
+.card-list {
+  background-size: cover;
+  background-position: bottom;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.img1 {
+  background-image: url(flow01.png);
+}
+
+.img2 {
+  background-image: url(flow02.png);
+}
+
+.img3 {
+  background-image: url(flow03.png);
+}
+
+.card-listImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #ffffff
+}
+
+.card-listTitle {
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-listText {
+  line-height: 1.8;
+  font-size: 12px;
+}
+
+.footer {
+  height: 50px;
+  background-color: #aaa;
+}
